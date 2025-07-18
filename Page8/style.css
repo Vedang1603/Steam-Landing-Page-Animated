@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14222D;
+}
+
+#center {
+    position: relative;
+    left: 4%;
+    height: 80vh;
+    width: 75vw;
+    /* background-color: red; */
+}
+
+.imgcontainer {
+    overflow: hidden;
+    height: 100%;
+    width: 0%;
+    /* background-color: yellowgreen; */
+    position: absolute;
+}
+
+img {
+    height: 100%;
+
+}
+
+img.a {
+    object-fit: cover;
+    object-position: -5vw;
+}
+
+img.b {
+    object-fit: fill;
+
+}
+
+img.c {
+    object-fit: cover;
+    object-position: -5vw;
+
+}
+
+img.d {
+    object-fit: cover;
+    object-position: -11vh;
+
+}
+
+img.e {
+    object-fit: fill;
+    object-position: -8vw;
+}
+
+.txt {
+    overflow: hidden;
+    left: -20vh;
+    top: 15vh;
+    position: absolute;
+    height: 11vh;
+    width: 23vw;
+    /* background-color: wheat; */
+    z-index: 111;
+}
+
+.txt h1 {
+    top: 100%;
+    position: absolute;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white; */
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+#steam img{
+    left: 5vh;
+    top: -5vh;
+    position: absolute;
+   height: 25vh; 
+}
+#menu img{
+    right: 3vh;
+    top: 4vh;
+    position: absolute;
+   height: 3vh; 
+}
+#play{
+    z-index: 9999;
+    border-radius: 10vh;
+    text-align: center;
+    width: 6vh;
+    height: 6vh;
+    background-color: #fff;
+    position: absolute;
+    top: 83vh;
+    left: 30vh;
+}
+#play img{
+    margin-left: 0.5vh;
+    margin-top: 1.5vh;
+    height: 3vh;
+    
+}
+#shop button{
+    padding: 1vh 1.5vh;
+    font-size: 3vh;
+    color: white;
+    background-color: #275084;
+    border-radius: 1vh;
+    border: none;
+}
+#shop button:hover{
+    background-color: #132c4b;
+}
+#shop{
+    position: absolute;
+ bottom: 11.2vh;
+    left: 5.5vh;
+}
+#banner1{ transform-origin: center;
+    overflow: hidden;
+    background-color: #010d25a4;
+    width: 100%;
+    transform: rotate(1.5deg);
+    position: absolute;
+    bottom: 1vh;
+}
+#banner1 h1{
+    color: #ffffff38;
+    padding: 1vh;
+    text-align: center;
+    font-size: 4vh;
+    word-spacing: 15vh;
+    
+}
+#banner2{
+    overflow: hidden;
+    background-color: #010d25;
+    width: 100%;
+    transform-origin: center;
+    transform: rotate(-1.5deg);
+    position: absolute;
+    bottom: 1vh;
+    z-index: 1111111;
+}
+#banner2 h1{
+    padding: 1vh;
+    text-align: center;
+    font-size: 4vh;
+    word-spacing: 15vh;
+    color: white;
+    
+}
